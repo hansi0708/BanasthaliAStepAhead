@@ -7,6 +7,18 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
          <style type="text/css">
+             div {
+    width: 100%;
+    height: 300px;
+    background-image: url('home1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid #e9385a;
+}
+
+
+
+
         .auto-style1 {
             width: 100%;
         }
@@ -19,7 +31,7 @@
     </style>
     </asp:ContentPlaceHolder>
 </head>
-<body style="height: 558px">
+<body  style = "background-color : #FFEFD5 ; style="height: 558px"; >
     <form id="form1" runat="server">
         <table class="auto-style1">
             <tr>
@@ -27,31 +39,33 @@
                     <table class="auto-style1">
                         <tr>
                             <td>
-                                <asp:Image ID="Image2" runat="server" ImageUrl="~/images/download (2).jpg" CssClass="auto-style3" Height="135px" />
-                            </td>
-                            <td>&n&nbsp;</td>
-                            <td>
-                                <asp:Label ID="Label1" runat="server" ForeColor="#003399" Text="Warden" font-size="XX-Large" Font-Bold="True"></asp:Label>
+                                <asp:Image ID="Image2" runat="server" ImageUrl="~/images/download (2).jpg" CssClass="auto-style3" Height="197px" Width="214px" />
                             </td>
                             <td>&nbsp;</td>
                             <td>
-                                &nbsp;</td>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Label ID="Label1" runat="server" ForeColor="#003399" Text="WARDEN" font-size="XX-Large" Font-Bold="True"></asp:Label>&nbsp&nbsp;&nbsp;&nbsp
+                               &nbsp&nbsp;&nbsp;&nbsp<br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                             &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <asp:Button ID="Button1" runat="server" BackColor="#003399" ForeColor="White"  Text="Home" text-align="absolute" OnClick="HomeButton_Click" Width="112px"/> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <asp:Button ID="ProfileButton" runat="server" BackColor="#003399" ForeColor="White"  Text="Profile" text-align="absolute" OnClick="ProfileButton_Click" Width="130px"/>
+                              &nbsp&nbsp;&nbsp; &nbsp;&nbsp  <asp:Button ID="ApplyButton" runat="server" BackColor="#003399" ForeColor="White" Text="Applied Leave" OnClick="ApplyButton_Click" Width="130px" />
+                              &nbsp&nbsp;&nbsp;&nbsp&nbsp;  <asp:Button ID="LogOutButton" runat="server" BackColor="#003399" ForeColor="White" Text="Log out" OnClick="LogOutButton_Click" Width="121px" />
+                            </td>
                             <td>&nbsp;</td>
+                            <td>
+                                &n&nbsp;</td>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
                             <td></td>
                             <td>
-                                <asp:Button ID="ProfileButton" runat="server" BackColor="#003399" ForeColor="White"  Text="Profile" text-align="absolute" OnClick="ProfileButton_Click"/>
-                            </td>
-                            <td>
-                                <asp:Button ID="ApplyButton" runat="server" BackColor="#003399" ForeColor="White" Text="Applied Leave" OnClick="ApplyButton_Click" />
-                            </td>
+                                &nbsp;</td>
                             <td>
                                 &nbsp;</td>
                             <td>
-                                <asp:Button ID="LogOutButton" runat="server" BackColor="#003399" ForeColor="White" Text="Logout" OnClick="LogOutButton_Click" />
-                            </td>
+                                &nbsp;</td>
                             <td>
                                 &nbsp;</td>
                         </tr>
@@ -60,14 +74,27 @@
             </tr>
             <tr>
                 <td>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                 </td>
             </tr>
         </table>
-        <div>
-            <asp:Image ID="Image1" runat="server" Height="321px" ImageUrl="~/images/ban1.jpg" Width="1246px" />
-        </div>
+         <footer>
+           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Created By Banasthali Vidyapith 2022 All rights reserved&nbsp; </p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="BanasthaliVidhyapith@banasthali.in">Banasthalividyapith@banasthali.in</a></p>
+</footer>
+   
     </form>
-</body>
 </html>

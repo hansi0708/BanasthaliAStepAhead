@@ -7,6 +7,13 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
          <style type="text/css">
+
+
+
+
+
+
+
         .auto-style1 {
             width: 100%;
             
@@ -15,29 +22,45 @@
             height: 31px;
         }
         .auto-style3 {
-            margin-top: 10px;
+            margin-top: 30px;
         }
     </style>
     </asp:ContentPlaceHolder>
 </head>
-<body>
-    <form id="form1" runat="server" BackColor="#B3CCEA">
+
+<body style = "background-color : #FFEFD5 ;">
+   &n&nbsp;<form id="form1" runat="server" BackColor="#B3CCEA">
         <table class="auto-style1" >
             <tr>
                 <td class="auto-style2">
                     <table class="auto-style1">
                         <tr>
                             <td>
-                                <asp:Image ID="Image2" runat="server" ImageUrl="~/images/download (2).jpg" CssClass="auto-style3" Height="135px" />
+                                <asp:Image ID="Image2" runat="server" ImageUrl="~/images/download (2).jpg" CssClass="auto-style3" Height="197px" Width="214px" />
                             </td>
                             <td>
-                                <asp:Button ID="HomeButton" runat="server" BackColor="#003399" ForeColor="White"  Text="Home" text-align="absolute" OnClick="HomeButton_Click"/>
+                                 <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                             &nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;   <asp:Button ID="HomeButton" runat="server" BackColor="#003399" ForeColor="White"  Text="Home" text-align="absolute" OnClick="HomeButton_Click" Width="112px"/>&nbsp&nbsp;&nbsp;&nbsp
+                                <asp:Button ID="AboutUsButton" runat="server" BackColor="#003399" ForeColor="White" Text="About Us" OnClick="AboutUsButton_Click" Width="113px" />&nbsp&nbsp;&nbsp;&nbsp
+                               <asp:Button ID="ContactUsButton" runat="server" BackColor="#003399" ForeColor="White" Text="Contact Us" OnClick="ContactUsButton_Click" Width="113px" />
                             </td>
                             <td>
-                                <asp:Button ID="AboutUsButton" runat="server" BackColor="#003399" ForeColor="White" Text="About Us" OnClick="AboutUsButton_Click" />
+                                 <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
                             </td>
                             <td>
-                                <asp:Button ID="ContactUsButton" runat="server" BackColor="#003399" ForeColor="White" Text="Contact Us" OnClick="ContactUsButton_Click" />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
                             </td>
                             <td>
                                 &nbsp;</td>
@@ -50,13 +73,36 @@
             <tr>
                 <td>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;<br />
+                </p>
             </asp:ContentPlaceHolder>
                 </td>
             </tr>
         </table>
-        <div>
-            <asp:Image ID="Image1" runat="server" Height="321px" ImageUrl="~/images/ban1.jpg" Width="1246px" />
-        </div>
+        <footer>
+           
+           <p > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Created By Banasthali Vidyapith 2022 All rights reserved&nbsp; </p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="BanasthaliVidhyapith@banasthali.in">Banasthalividyapith@banasthali.in</a></p>
+</footer>
+
     </form>
+    <p>
+&nbsp;
+    </p>
 </body>
 </html>

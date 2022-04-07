@@ -23,5 +23,10 @@ namespace BanasthaliAStepAhead
         {
             Response.Redirect("AppliedLeaves.aspx");
         }
+
+        protected System.Void LogOutButton_Click(System.Object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
