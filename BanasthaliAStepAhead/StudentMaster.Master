@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="StudentMaster.master.cs" Inherits="BanasthaliAStepAhead.StudentMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 31px;
+        }
+        .auto-style3 {
+            margin-top: 10px;
+        }
+    </style>
+    </asp:ContentPlaceHolder>
+</head>
+<body style="height: 558px">
+    <form id="form1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style2">
+                    <table class="auto-style1">
+                        <tr>
+                            <td>
+                                <asp:Image ID="Image2" runat="server" ImageUrl="~/images/download (2).jpg" CssClass="auto-style3" Height="135px" />
+                            </td>
+                            <td>&nbsp;</td>
+                            <td>
+                                <asp:Label ID="Label1" runat="server" ForeColor="#003399" Text="Student " font-size="XX-Large" Font-Bold="True"></asp:Label>
+                            </td>
+                            <td>&nbsp;</td>
+                            <td>
+                                &nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <asp:Button ID="ProfileButton" runat="server" BackColor="#003399" ForeColor="White"  Text="Profile" text-align="absolute" OnClick="ProfileButton_Click"/>
+                            </td>
+                            <td>
+                                <asp:Button ID="ApplyButton" runat="server" BackColor="#003399" ForeColor="White" Text="Apply Leave" OnClick="ApplyButton_Click" />
+                            </td>
+                            <td>
+                                <asp:Button ID="ViewRequestButton" runat="server" BackColor="#003399" ForeColor="White"  Text="View Request" OnClick="ViewRequestButton_Click" />
+                            </td>
+                            <td>
+                                <asp:Button ID="LogOutButton" runat="server" BackColor="#003399" ForeColor="White" Text="Logout" OnClick="LogOutButton_Click" />
+                            </td>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <div>
+            <asp:Image ID="Image1" runat="server" Height="321px" ImageUrl="~/images/ban1.jpg" Width="1246px" />
+        </div>
+    </form>
+</body>
+</html>
