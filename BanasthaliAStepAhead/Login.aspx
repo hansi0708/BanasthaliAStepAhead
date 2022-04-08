@@ -1,31 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HomeMaster.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="BanasthaliAStepAhead.Login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <script src="UserValidation.js" type="text/javascript"> 
-        function userValid() {  
-        
- var Username, Password;    
-Username = document.getElementById("txtUserId").value;       
-Password = document.getElementById("txt2").value;    
-if (Username == '' &&  Password == '') {    
-    alert("Enter All Fields");    
-    return false;    
-}    
-if (Username == '') {    
-    alert("Username Is Required");    
-    return false;    
-}    
-   
-if (Password == '')    
-{    
-    alert("Password Is Required");    
-    return false;    
-}    
-  
-  return true;    
-}  
-
-
-</script>
     <style type="text/css">
         #Button1  {
             font-size:larger;
@@ -212,6 +186,60 @@ if (Password == '')
             height: 34px;
             width: 120px;
         }
+        .auto-style57 {
+            width: 240px;
+            height: 10px;
+        }
+        .auto-style58 {
+            width: 157px;
+            height: 10px;
+        }
+        .auto-style59 {
+            height: 10px;
+            width: 120px;
+        }
+        .auto-style60 {
+            height: 10px;
+            width: 8px;
+        }
+        .auto-style61 {
+            height: 10px;
+            width: 83px;
+        }
+        .auto-style62 {
+            height: 10px;
+        }
+        .auto-style63 {
+            height: 52px;
+            width: 17px;
+        }
+        .auto-style64 {
+            height: 31px;
+            width: 17px;
+        }
+        .auto-style65 {
+            height: 29px;
+            width: 17px;
+        }
+        .auto-style66 {
+            height: 10px;
+            width: 17px;
+        }
+        .auto-style67 {
+            height: 33px;
+            width: 17px;
+        }
+        .auto-style68 {
+            height: 37px;
+            width: 17px;
+        }
+        .auto-style69 {
+            height: 34px;
+            width: 17px;
+        }
+        .auto-style70 {
+            width: 17px;
+        }
     </style>
 </asp:Content>
 
@@ -240,7 +268,7 @@ if (Password == '')
                 &nbsp;</td>
             <td class="auto-style38">
                 &nbsp;</td>
-            <td class="auto-style38">
+            <td class="auto-style63">
                 &nbsp;</td>
             <td class="auto-style38">
                 &nbsp;</td>
@@ -255,8 +283,7 @@ if (Password == '')
             <td class="auto-style38">
                 &nbsp;</td>
             <td class="auto-style38">
-                <asp:Button ID="SignUpButton" runat="server" BackColor="#003399" ForeColor="White" Text="Signup" PostBackUrl="~/Signup.aspx" OnClick="SignUpButton_Click" />
-            </td>
+                &nbsp;</td>
         </tr>
         <tr>
             <td class="auto-style8"></td>
@@ -264,7 +291,7 @@ if (Password == '')
             <td class="auto-style51"></td>
             <td class="auto-style26"></td>
             <td class="auto-style31">
-                <asp:Label ID="Label7" runat="server" Text="Login " Style="color: darkblue; font-size:40px;" Font-Bold="True" Font-Size="XX-Large"></asp:Label>
+                <asp:Label ID="Label7" runat="server" Text="Login " Style="color: darkblue; font-size:40px;" Font-Bold="True" Font-Size="X-Large"></asp:Label>
             </td>
             <td class="auto-style3"></td>
             <td class="auto-style3">&nbsp;</td>
@@ -274,7 +301,7 @@ if (Password == '')
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style3">&nbsp;</td>
-            <td class="auto-style3">&nbsp;</td>
+            <td class="auto-style64">&nbsp;</td>
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style3">&nbsp;</td>
@@ -285,61 +312,54 @@ if (Password == '')
             <td class="auto-style3">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style4">&nbsp;</td>
-            <td class="auto-style52">
+            <td class="auto-style16"></td>
+            <td class="auto-style17"></td>
+            <td class="auto-style53">
+                </td>
+            <td class="auto-style24"></td>
+            <td class="auto-style29"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style65"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style15"></td>
+            <td class="auto-style15"></td>
+        </tr>
+        <tr>
+            <td class="auto-style57"></td>
+            <td class="auto-style58"></td>
+            <td class="auto-style59">
                 &nbsp;</td>
-            <td class="auto-style23">&nbsp;</td>
-            <td class="auto-style28">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style4">&nbsp;</td>
-            <td class="auto-style54">
-                <asp:Label ID="Label8" runat="server" Text="Role" Style=" font-size:20px;"></asp:Label>
-            </td>
-            <td class="auto-style23"></td>
-            <td class="auto-style28">  <asp:DropDownList ID="DropDownList1" runat="server" AppendDataBoundItems="True" BackColor="#003399" EnableTheming="True" ForeColor="White"  ValidateRequestMode="Enabled" ValidationGroup="g1" >
-                    <asp:ListItem Selected="True"></asp:ListItem>
-                    <asp:ListItem>Admin</asp:ListItem>
-                    <asp:ListItem>Head of Department</asp:ListItem>
-                    <asp:ListItem>Student</asp:ListItem>
-                    <asp:ListItem>Warden</asp:ListItem>
-                </asp:DropDownList>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style60"></td>
+            <td class="auto-style61">  &nbsp;</td>
+            <td class="auto-style62"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style66"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style62"></td>
         </tr>
         <tr>
             <td class="auto-style16"></td>
@@ -355,7 +375,7 @@ if (Password == '')
             <td class="auto-style15">&nbsp;</td>
             <td class="auto-style15">&nbsp;</td>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style15">&nbsp;</td>
+            <td class="auto-style65">&nbsp;</td>
             <td class="auto-style15">&nbsp;</td>
             <td class="auto-style15">&nbsp;</td>
             <td class="auto-style15">&nbsp;</td>
@@ -370,23 +390,30 @@ if (Password == '')
             <td class="auto-style14">
                 </td>
             <td class="auto-style54">
-                <asp:Label ID="Label5" runat="server" Text="Email" Style=" font-size:20px;"></asp:Label>
+                <asp:Label ID="Label8" runat="server" Text="Role" Style=" font-size:20px;"></asp:Label>
             </td>
             <td class="auto-style25"></td>
             <td class="auto-style30">
-                <asp:TextBox ID="EmailTxt" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="DropDownList1" runat="server" AppendDataBoundItems="True" BackColor="White" EnableTheming="True" ForeColor="Black"  ValidateRequestMode="Enabled" ValidationGroup="g1" Width="170px" >
+                    <asp:ListItem Selected="True"></asp:ListItem>
+                    <asp:ListItem>Admin</asp:ListItem>
+                    <asp:ListItem>Head of Department</asp:ListItem>
+                    <asp:ListItem>Student</asp:ListItem>
+                    <asp:ListItem>Warden</asp:ListItem>
+                </asp:DropDownList>
             </td>
-            <td class="auto-style12"></td>
+            <td class="auto-style12">
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="DropDownList1" ErrorMessage="*"></asp:RequiredFieldValidator>
+            </td>
             <td class="auto-style12"></td>
             <td class="auto-style12"></td>
             <td class="auto-style12"></td>
             <td class="auto-style12">
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="EmailTxt" ErrorMessage="*"></asp:RequiredFieldValidator>
-            </td>
+                &nbsp;</td>
             <td class="auto-style12"></td>
             <td class="auto-style12"></td>
             <td class="auto-style12"></td>
-            <td class="auto-style12"></td>
+            <td class="auto-style67"></td>
             <td class="auto-style12"></td>
             <td class="auto-style12"></td>
             <td class="auto-style12"></td>
@@ -399,10 +426,16 @@ if (Password == '')
         <tr>
             <td class="auto-style46"></td>
             <td class="auto-style44"></td>
-            <td class="auto-style55"></td>
+            <td class="auto-style55">
+                <asp:Label ID="Label5" runat="server" Text="Email" Style=" font-size:20px;"></asp:Label>
+            </td>
             <td class="auto-style47"></td>
-            <td class="auto-style48"></td>
-            <td class="auto-style45"></td>
+            <td class="auto-style48">
+                <asp:TextBox ID="EmailTxt" runat="server"></asp:TextBox>
+            </td>
+            <td class="auto-style45">
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="EmailTxt" ErrorMessage="*"></asp:RequiredFieldValidator>
+            </td>
             <td class="auto-style45">&nbsp;</td>
             <td class="auto-style45">&nbsp;</td>
             <td class="auto-style45">&nbsp;</td>
@@ -410,7 +443,7 @@ if (Password == '')
             <td class="auto-style45">&nbsp;</td>
             <td class="auto-style45">&nbsp;</td>
             <td class="auto-style45">&nbsp;</td>
-            <td class="auto-style45">&nbsp;</td>
+            <td class="auto-style68">&nbsp;</td>
             <td class="auto-style45">&nbsp;</td>
             <td class="auto-style45">&nbsp;</td>
             <td class="auto-style45">&nbsp;</td>
@@ -431,17 +464,18 @@ if (Password == '')
             <td class="auto-style32">
                 <asp:TextBox ID="PwdTxt" runat="server" TextMode="Password"></asp:TextBox>
             </td>
-            <td class="auto-style10"></td>
-            <td class="auto-style10"></td>
-            <td class="auto-style10"></td>
-            <td class="auto-style10"></td>
             <td class="auto-style10">
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="PwdTxt" ErrorMessage="*"></asp:RequiredFieldValidator>
             </td>
             <td class="auto-style10"></td>
             <td class="auto-style10"></td>
             <td class="auto-style10"></td>
+            <td class="auto-style10">
+                &nbsp;</td>
             <td class="auto-style10"></td>
+            <td class="auto-style10"></td>
+            <td class="auto-style10"></td>
+            <td class="auto-style69"></td>
             <td class="auto-style10"></td>
             <td class="auto-style10"></td>
             <td class="auto-style10"></td>
@@ -465,7 +499,7 @@ if (Password == '')
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style70">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -478,14 +512,14 @@ if (Password == '')
         <tr>
             <td class="auto-style8">&nbsp;</td>
             <td class="auto-style5">
-                <asp:LinkButton ID="ForgetPwdButton" runat="server" PostBackUrl="~/ForgetPassword.aspx">Forget Password?</asp:LinkButton>
-            </td>
+                &nbsp;</td>
             <td class="auto-style51">
-                <asp:Button ID="LoginButton" runat="server" BackColor="#003399" ForeColor="White" Text="Login"  OnClick="LoginButton_Click" />
+                <asp:LinkButton ID="ForgetPwdButton" runat="server" PostBackUrl="~/ForgetPassword.aspx" ValidationGroup="g1">Forget Password?</asp:LinkButton>
             </td>
             <td class="auto-style26"></td>
             <td class="auto-style31">
-                &nbsp;</td>
+                <asp:Button ID="LoginButton" runat="server" BackColor="#003399" ForeColor="White" Text="Login"  OnClick="LoginButton_Click" Height="28px" Width="190px" />
+            </td>
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style3">&nbsp;</td>
@@ -494,7 +528,7 @@ if (Password == '')
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style3">&nbsp;</td>
-            <td class="auto-style3">&nbsp;</td>
+            <td class="auto-style64">&nbsp;</td>
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style3">&nbsp;</td>
@@ -506,13 +540,8 @@ if (Password == '')
         </tr>
         <tr>
             <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style4">
-                &nbsp;</td>
-            <td class="auto-style52">
-        
-                
-                    
-            </td>
+            <td class="auto-style4">&nbsp;</td>
+            <td class="auto-style52">&nbsp;</td>
             <td class="auto-style23">&nbsp;</td>
             <td class="auto-style28">&nbsp;</td>
             <td>&nbsp;</td>
@@ -523,7 +552,7 @@ if (Password == '')
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style70">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -540,7 +569,9 @@ if (Password == '')
             <td class="auto-style52">
                 &nbsp;</td>
             <td class="auto-style23">&nbsp;</td>
-            <td class="auto-style28">&nbsp;</td>
+            <td class="auto-style28">
+                <asp:Label ID="Label9" runat="server" ForeColor="#0066CC" Text="  New User? Contact To ADMIN"></asp:Label>
+            </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -549,31 +580,7 @@ if (Password == '')
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style4">&nbsp;</td>
-            <td class="auto-style52">&nbsp;</td>
-            <td class="auto-style23">&nbsp;</td>
-            <td class="auto-style28">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style70">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -597,31 +604,7 @@ if (Password == '')
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style4">&nbsp;</td>
-            <td class="auto-style52">&nbsp;</td>
-            <td class="auto-style23">&nbsp;</td>
-            <td class="auto-style28">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style70">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -645,31 +628,7 @@ if (Password == '')
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style4">&nbsp;</td>
-            <td class="auto-style52">&nbsp;</td>
-            <td class="auto-style23">&nbsp;</td>
-            <td class="auto-style28">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style70">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -693,31 +652,7 @@ if (Password == '')
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style4">&nbsp;</td>
-            <td class="auto-style52">&nbsp;</td>
-            <td class="auto-style23">&nbsp;</td>
-            <td class="auto-style28">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style70">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -741,7 +676,103 @@ if (Password == '')
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
+            <td class="auto-style70">&nbsp;</td>
             <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style4">&nbsp;</td>
+            <td class="auto-style52">&nbsp;</td>
+            <td class="auto-style23">&nbsp;</td>
+            <td class="auto-style28">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="auto-style70">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style4">&nbsp;</td>
+            <td class="auto-style52">&nbsp;</td>
+            <td class="auto-style23">&nbsp;</td>
+            <td class="auto-style28">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="auto-style70">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style4">&nbsp;</td>
+            <td class="auto-style52">&nbsp;</td>
+            <td class="auto-style23">&nbsp;</td>
+            <td class="auto-style28">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="auto-style70">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style4">&nbsp;</td>
+            <td class="auto-style52">&nbsp;</td>
+            <td class="auto-style23">&nbsp;</td>
+            <td class="auto-style28">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="auto-style70">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>

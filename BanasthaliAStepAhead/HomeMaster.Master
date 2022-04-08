@@ -34,28 +34,13 @@
                                 <asp:Image ID="Image2" runat="server" ImageUrl="~/images/download (2).jpg" CssClass="auto-style3" Height="159px" Width="190px" />
                             </td>
                             <td>
-                                 <br />
-                                <br />
-                                <br />
-                                <br />
-                                <br />
-                             &nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;   <asp:Button ID="HomeButton" runat="server" BackColor="darkblue" ForeColor="white"  Text="Home" text-align="absolute" OnClick="HomeButton_Click" Width="112px"/>&nbsp&nbsp;&nbsp;&nbsp
-                                <asp:Button ID="AboutUsButton" runat="server" BackColor="darkblue" ForeColor="white" Text="About Us" OnClick="AboutUsButton_Click" Width="113px" />&nbsp&nbsp;&nbsp;&nbsp
-                               <asp:Button ID="ContactUsButton" runat="server" BackColor="darkblue" ForeColor="white" Text="Contact Us" OnClick="ContactUsButton_Click" Width="113px" />
+                                <asp:Button ID="HomeButton" runat="server" BackColor="#003399" ForeColor="White"  Text="Home" text-align="absolute" OnClick="HomeButton_Click"/>
                             </td>
                             <td>
-                                 <br />
-                                <br />
-                                <br />
-                                <br />
-                                <br />
+                                <asp:Button ID="AboutUsButton" runat="server" BackColor="#003399" ForeColor="White" Text="About Us" OnClick="AboutUsButton_Click" />
                             </td>
                             <td>
-                                <br />
-                                <br />
-                                <br />
-                                <br />
-                                <br />
+                                <asp:Button ID="ContactUsButton" runat="server" BackColor="#003399" ForeColor="White" Text="Contact Us" OnClick="ContactUsButton_Click" />
                             </td>
                             <td>
                                 &nbsp;</td>

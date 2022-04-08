@@ -4,6 +4,9 @@
         .auto-style1 {
             width: 100%;
         }
+         .auto-style2 {
+             height: 39px;
+         }
     </style>
 </asp:Content>
 
@@ -144,31 +147,31 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2">
                 <asp:Label ID="Label2" runat="server" Text="Enter Email"></asp:Label>
             </td>
-            <td>
+            <td class="auto-style2">
                 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*"></asp:RequiredFieldValidator>
             </td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -274,7 +277,7 @@
             <td>&nbsp;</td>
             <td>
                 <asp:Button ID="Button1" runat="server" BackColor="#003399" ForeColor="White" Text="Verify" OnClick="Button1_Click" />
-                <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="Label5" runat="server"></asp:Label>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>

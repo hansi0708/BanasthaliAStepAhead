@@ -79,9 +79,9 @@
     <Content Include="AppliedAdmin.aspx" />
     <Content Include="AppliedHOD.aspx" />
     <Content Include="AppliedLeaves.aspx" />
-    <Content Include="App_Data\BSADatabase.mdf" />
-    <Content Include="App_Data\BSADatabase_log.ldf">
-      <DependentUpon>BSADatabase.mdf</DependentUpon>
+    <Content Include="App_Data\D1.mdf" />
+    <Content Include="App_Data\D1_log.ldf">
+      <DependentUpon>D1.mdf</DependentUpon>
     </Content>
     <Content Include="ban2.jpg" />
     <Content Include="ChangePassword.aspx" />

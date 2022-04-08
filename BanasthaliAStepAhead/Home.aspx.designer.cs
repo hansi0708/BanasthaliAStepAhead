@@ -15,15 +15,6 @@ namespace BanasthaliAStepAhead
     {
 
         /// <summary>
-        /// AlreadyUserLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label AlreadyUserLabel;
-
-        /// <summary>
         /// LoginButton control.
         /// </summary>
         /// <remarks>
@@ -31,23 +22,5 @@ namespace BanasthaliAStepAhead
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button LoginButton;
-
-        /// <summary>
-        /// NewUserLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label NewUserLabel;
-
-        /// <summary>
-        /// SignUpButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SignUpButton;
     }
 }

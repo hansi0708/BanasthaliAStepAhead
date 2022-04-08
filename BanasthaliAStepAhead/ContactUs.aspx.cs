@@ -5,6 +5,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Net;
+using System.Net.Mail;
 
 namespace BanasthaliAStepAhead
 {
@@ -15,28 +17,26 @@ namespace BanasthaliAStepAhead
 
         }
 
-        SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Harshita\\source\\repos\\BanasthaliAStepAhead\\BanasthaliAStepAhead\\App_Data\\BSADatabase.mdf;Integrated Security=True");
+        SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Mayank\\source\\repos\\BanasthaliAStepAhead\\BanasthaliAStepAhead\\App_Data\\D1.mdf;Integrated Security=True");
 
         protected void SendButton_Click(System.Object sender, System.EventArgs e)
         {
+
             try
             {
-                conn.Open();
-                string insertQuery = "insert into Contact(Email,Name,Message)values (@email,@name,@message)";
-                SqlCommand cmd = new SqlCommand(insertQuery, conn);
-                cmd.Parameters.AddWithValue("@email", EmailTxt.Text);
-                cmd.Parameters.AddWithValue("@name", NameTxt.Text);
-                cmd.Parameters.AddWithValue("@message", MessageTxt.Text);
-                cmd.ExecuteNonQuery();
-
-                Response.Write("Message sent Successfully!!! Thank you");
-
-                conn.Close();
-
+                MailMessage message = new MailMessage(EmailTxt.Text,NameTxt.Text,MessageTxt.Text);
+               
+                SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
+                client.EnableSsl = true;
+                client.DeliveryMethod = SmtpDeliveryMethod.Network;
+                client.UseDefaultCredentials = false;
+                client.Credentials = new System.Net.NetworkCredential("abmca21171_shubhi@banasthali.in", "12345");
+                client.Send(message);
+                Label1.Text = "message was sent successfully";
             }
             catch (Exception ex)
             {
-                Response.Write("error" + ex.ToString());
+                Label1.Text = ex.StackTrace;
             }
         }
     }
