@@ -19,7 +19,7 @@
     </style>
     </asp:ContentPlaceHolder>
 </head>
-<body style="height: 558px">
+<body style="height: 558px" >
     <form id="form1" runat="server">
         <table class="auto-style1">
             <tr>
@@ -48,9 +48,9 @@
                                 <asp:Button ID="ApplyButton" runat="server" BackColor="#003399" ForeColor="White" Text="Applied Leave" OnClick="ApplyButton_Click" />
                             </td>
                             <td>
-                                &nbsp;</td>
+                                &n&nbsp;</td>
                             <td>
-                                <asp:Button ID="LogOutButton" runat="server" BackColor="#003399" ForeColor="White" Text="Logout" OnClick="LogOutButton_Click" />
+                                <asp:Button ID="LogOutButton" runat="server" BackColor="#003399" ForeColor="White" Text="Logout" OnClick="LogOutButton_Click"  />
                             </td>
                             <td>
                                 &nbsp;</td>

@@ -31,7 +31,10 @@ namespace BanasthaliAStepAhead
 
         protected void LogOutButton_Click(object sender, EventArgs e)
         {
-
+            Session.Abandon();
+            Session.Clear();
+            Response.Cookies.Clear();
+            Response.Redirect("Home.aspx");
         }
     }
 }

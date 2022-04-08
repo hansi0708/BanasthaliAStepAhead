@@ -25,7 +25,7 @@ namespace BanasthaliAStepAhead
         {
             using (SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Harshita\\source\\repos\\BanasthaliAStepAhead\\BanasthaliAStepAhead\\App_Data\\BSADatabase.mdf;Integrated Security=True"))
             {
-                using (SqlCommand cmd = new SqlCommand("Select LeaveId,[From],[To] from Leave"))
+                using (SqlCommand cmd = new SqlCommand("Select LeaveId,[From],[To] from Leave where Status = 'Approved by Warden'"))
                 {
                     using (SqlDataAdapter sda = new SqlDataAdapter())
                     {

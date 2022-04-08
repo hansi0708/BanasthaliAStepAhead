@@ -43,5 +43,24 @@ namespace BanasthaliAStepAhead
             conn.Close();
         }
 
+        protected void ApprovedButton_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            string str = "Update Leave Set Status = 'Approved by Warden' where LeaveId=" + LeaveIdLabel.Text;
+            SqlCommand com = new SqlCommand(str, conn);
+            com.ExecuteNonQuery();
+            conn.Close();
+            Response.Redirect("AppliedLeaves.aspx");
+        }
+
+        protected void DenyButton_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            string str = "Update Leave Set Status = 'Denied by Warden' where LeaveId=" + LeaveIdLabel.Text;
+            SqlCommand com = new SqlCommand(str, conn);
+            com.ExecuteNonQuery();
+            conn.Close();
+            Response.Redirect("AppliedLeaves.aspx");
+        }
     }
 }

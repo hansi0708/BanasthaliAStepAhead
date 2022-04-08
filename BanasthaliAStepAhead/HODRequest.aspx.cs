@@ -43,5 +43,25 @@ namespace BanasthaliAStepAhead
             reader.Close();
             conn.Close();
         }
+
+        protected void ApprovedButton_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            string str = "Update Leave Set Status = 'Approved by Head of Department' where LeaveId=" + LeaveIdLabel.Text;
+            SqlCommand com = new SqlCommand(str, conn);
+            com.ExecuteNonQuery();
+            conn.Close();
+            Response.Redirect("AppliedHOD.aspx");
+        }
+
+        protected void DenyButton_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            string str = "Update Leave Set Status = 'Denied by Head of Department' where LeaveId=" + LeaveIdLabel.Text;
+            SqlCommand com = new SqlCommand(str, conn);
+            com.ExecuteNonQuery();
+            conn.Close();
+            Response.Redirect("AppliedHOD.aspx");
+        }
     }
 }

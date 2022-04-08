@@ -858,10 +858,10 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>
-                <asp:Button ID="ApprovedButton" runat="server" BackColor="#003399" ForeColor="White" Text="Approved"  />
+                <asp:Button ID="ApprovedButton" runat="server" BackColor="#003399" ForeColor="White" Text="Approved" OnClick="ApprovedButton_Click"  />
             </td>
             <td>
-                <asp:Button ID="DenyButton"  BackColor="#003399" ForeColor="White" runat="server" Text="Deny" />
+                <asp:Button ID="DenyButton"  BackColor="#003399" ForeColor="White" runat="server" Text="Deny" OnClick="DenyButton_Click" />
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
