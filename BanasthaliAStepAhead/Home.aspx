@@ -76,17 +76,14 @@
             <td class="auto-style5">
                 &nbsp;</td>
             <td>
-                <asp:Label ID="AlreadyUserLabel" runat="server" Text="Already have an account?"></asp:Label>
-                <asp:Button ID="LoginButton" runat="server" BackColor="#003399" ForeColor="White" Text="LOGIN" Width="103px" OnClick="LoginButton_Click"  />
+                <asp:Button ID="LoginButton" runat="server" BackColor="#003399" ForeColor="White" Text="Login" Width="103px" OnClick="LoginButton_Click"  />
             
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td class="auto-style13">
-                <asp:Label ID="NewUserLabel" runat="server" Text="New User?"></asp:Label>
-                <asp:Button ID="SignUpButton" runat="server" BackColor="#003399" ForeColor="White" Text="SIGN UP" OnClick="SignUpButton_Click" />
-            </td>
+                &nbsp;</td>
             <td>
                 &nbsp;</td>
             <td>&nbsp;</td>

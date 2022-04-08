@@ -15,7 +15,7 @@ namespace BanasthaliAStepAhead
            // refreshData();
         }
 
-        SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Harshita\\source\\repos\\BanasthaliAStepAhead\\BanasthaliAStepAhead\\App_Data\\BSADatabase.mdf;Integrated Security=True");
+        SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Mayank\\source\repos\\BanasthaliAStepAhead\\BanasthaliAStepAhead\\App_Data\\D1.mdf;Integrated Security=True");
 
         /* public void refreshData()
          {

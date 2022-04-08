@@ -15,13 +15,13 @@ namespace BanasthaliAStepAhead
     {
 
         /// <summary>
-        /// Label2 control.
+        /// Label13 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label Label13;
 
         /// <summary>
         /// Label12 control.
@@ -141,15 +141,6 @@ namespace BanasthaliAStepAhead
         protected global::System.Web.UI.WebControls.TextBox EmailTxt;
 
         /// <summary>
-        /// RegisterButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button RegisterButton;
-
-        /// <summary>
         /// Label10 control.
         /// </summary>
         /// <remarks>
@@ -202,5 +193,14 @@ namespace BanasthaliAStepAhead
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox DepTxt;
+
+        /// <summary>
+        /// RegisterButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button RegisterButton;
     }
 }

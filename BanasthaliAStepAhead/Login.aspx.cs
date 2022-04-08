@@ -16,8 +16,7 @@ namespace BanasthaliAStepAhead
 
         }
 
-        SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Harshita\\source\\repos\\BanasthaliAStepAhead\\BanasthaliAStepAhead\\App_Data\\BSADatabase.mdf;Integrated Security=True");
-
+        SqlConnection conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDBFileName=|DataDirectory|\\D1.mdf;Integrated Security=True;");
         protected void LoginButton_Click(object sender, EventArgs e)
         {
             if(DropDownList1.SelectedItem.Text=="Student")
@@ -188,9 +187,11 @@ namespace BanasthaliAStepAhead
             Response.Redirect("Home.aspx");
         }
 
-        protected void SignUpButton_Click(object sender, EventArgs e)
+       
+
+        protected void ForgetPwdButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("SignUp.aspx");
+            Response.Redirect("ForgetPassword.aspx");
         }
     }
 }

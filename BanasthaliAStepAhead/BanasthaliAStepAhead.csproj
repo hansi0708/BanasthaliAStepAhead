@@ -79,16 +79,19 @@
     <Content Include="AppliedAdmin.aspx" />
     <Content Include="AppliedHOD.aspx" />
     <Content Include="AppliedLeaves.aspx" />
-    <Content Include="App_Data\BSADatabase.mdf" />
-    <Content Include="App_Data\BSADatabase_log.ldf">
-      <DependentUpon>BSADatabase.mdf</DependentUpon>
+    <Content Include="App_Data\D1.mdf" />
+    <Content Include="App_Data\D1_log.ldf">
+      <DependentUpon>D1.mdf</DependentUpon>
     </Content>
+    <Content Include="ban2.jpg" />
     <Content Include="ChangePassword.aspx" />
     <Content Include="ContactUs.aspx" />
     <Content Include="ForgetPassword.aspx" />
     <Content Include="HODProfile.aspx" />
     <Content Include="HODRequest.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="home1.jpg" />
+    <Content Include="home2.jpg" />
     <Content Include="Images\ban1.jpg" />
     <Content Include="Images\download %281%29.jpg" />
     <Content Include="Images\download %282%29.jpg" />
