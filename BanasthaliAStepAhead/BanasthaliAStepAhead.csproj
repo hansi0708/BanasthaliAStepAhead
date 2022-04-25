@@ -98,6 +98,7 @@
     <Content Include="Images\user_icon_004.jpg" />
     <Content Include="LeaveRequest.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Properties\ban7.png" />
     <Content Include="SignUp.aspx" />
     <Content Include="StudentLeave.aspx" />
     <Content Include="StudentProfile.aspx" />
@@ -105,6 +106,8 @@
     <Content Include="WardenProfile.aspx" />
     <Content Include="WardenRequest.aspx" />
     <Content Include="Web.config" />
+    <Content Include="webform 2.aspx" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AboutUs.aspx.cs">
@@ -283,6 +286,20 @@
     </Compile>
     <Compile Include="WardenRequest.aspx.designer.cs">
       <DependentUpon>WardenRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webform 2.aspx.cs">
+      <DependentUpon>webform 2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webform 2.aspx.designer.cs">
+      <DependentUpon>webform 2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

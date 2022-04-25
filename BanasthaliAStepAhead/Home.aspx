@@ -1,6 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HomeMaster.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="BanasthaliAStepAhead.Home" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
+        body {
+  background-image: url("C:\Users\Simran\Source\Repos\BanasthaliAStepAhead\BanasthaliAStepAhead\home2.jpg");
+            background-repeat: no-repeat;
+            background-size:cover;
+}
         .auto-style1 {
             width: 100%;
         }
@@ -117,8 +122,9 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>
-                <h1 style="margin: 0px; padding: 0px; font-family: Poppins, sans-serif; box-sizing: border-box; text-decoration: none; font-size: 40px; font-weight: 600; color: rgb(0, 51, 153); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; ">BANASTHALI VIDHYAPITH</h1>
-                <h2 style="margin: 0px; padding: 0px; font-family: Poppins, sans-serif; box-sizing: border-box; text-decoration: none; color: rgb(0, 51, 153); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><b style="margin: 0px; padding: 0px; font-family: Poppins, sans-serif; box-sizing: border-box; text-decoration: none;">A Step Ahead</b></h2>
+                <h1 style="margin: 0px; padding: 0px; font-family: Poppins, sans-serif; box-sizing: border-box; text-decoration: none; font-size: 40px; font-weight: 600; color: rgb(0, 51, 153); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; ">   
+                              <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" ForeColor="#003399" Text="Leave Management System" BackColor="#CCFFFF" BorderStyle="Double"></asp:Label>
+                                 </h1>
             </td>
             <td>&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>

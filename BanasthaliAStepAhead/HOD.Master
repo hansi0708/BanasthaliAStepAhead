@@ -11,16 +11,20 @@
 
 
 
+
         .auto-style1 {
             width: 100%;
         }
         .auto-style2 {
             height: 31px;
         }
-        .auto-style3 {
-            margin-top: 10px;
-        }
-    </style>
+             .auto-style3 {
+                 width: 1590px;
+             }
+             .auto-style4 {
+                 margin-left: 0px;
+             }
+         </style>
     </asp:ContentPlaceHolder>
 </head>
 <body style = "background-color : #FFEFD5 ;style="height: 558px ;">
@@ -31,22 +35,23 @@
                     <table class="auto-style1">
                         <tr>
                             <td>
-                                <asp:Image ID="Image2" runat="server" ImageUrl="~/images/download (2).jpg" CssClass="auto-style3" Height="198px" Width="205px" />
-                            </td>
-                            <td>&nbsp;</td>
+                                &nbsp;</td>
                             <td>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <asp:Label ID="Label1" runat="server" ForeColor="#003399" Text="Head Of Department " font-size="XX-Large" Font-Bold="True"></asp:Label>
+                                <asp:ImageButton ID="ImageButton1" runat="server" Height="133px" ImageUrl="C:\Users\Simran\Source\Repos\BanasthaliAStepAhead\BanasthaliAStepAhead\Images\download (2).jpg" Width="185px" />
+                            </td>
+                            <td class="auto-style3">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <asp:Label ID="Label1" runat="server" ForeColor="#003399" Text="Head Of Department " font-size="XX-Large" Font-Bold="True"></asp:Label>
                                 <br />
                                 <br />
                                 <br />
                                 <br />
                                 <br />
                                 <br /> 
-                                &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Button ID="HomeButton" runat="server" BackColor="#003399" ForeColor="White"  Text="Home" text-align="absolute" OnClick="HomeButton_Click" Width="112px"/>
+                                &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <asp:Button ID="HomeButton" runat="server" BackColor="#003399" ForeColor="White"  Text="Home" text-align="absolute" OnClick="HomeButton_Click" Width="112px"/>
                                 &nbsp; &nbsp;&nbsp
                                 <asp:Button ID="Button1" runat="server" BackColor="#003399" ForeColor="White"  Text="Profile" text-align="absolute" OnClick="ProfileButton_Click" Width="130px"/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="ApplyButton" runat="server" BackColor="#003399" ForeColor="White" Text="Applied Leaves" OnClick="ApplyButton_Click" Width="144px" />
-                                &nbsp;&nbsp;&nbsp;&nbsp;   <asp:Button ID="LogOutButton" runat="server" BackColor="#003399" ForeColor="White" Text="Log out" OnClick="LogOutButton_Click" Width="116px" />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="ApplyButton" runat="server" BackColor="#003399" ForeColor="White" Text="Applied Leaves" OnClick="ApplyButton_Click" Width="136px" Height="37px" />
+                                &nbsp;&nbsp;&nbsp;&nbsp;   <asp:Button ID="LogOutButton" runat="server" BackColor="#003399" ForeColor="White" Text="Log out" OnClick="LogOutButton_Click" Width="116px" CssClass="auto-style4" Height="36px" />
                                 <br />
                             </td>
                             <td>&nbsp;</td>
@@ -61,7 +66,7 @@
                               
                             <td>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                            <td>
+                            <td class="auto-style3">
                                 &nbsp;</td>
                             <td>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
